@@ -2785,7 +2785,7 @@
 		.spotlights > section {
 			padding: 3em 2.5em 0.6em 2.5em ;
 			position: relative;
-			width: 50%;
+			width: 33%;
 		}
 
 			.spotlights > section .image {
@@ -2805,7 +2805,7 @@
 				width: 100vw;
 			}
 
-			.spotlights > section:nth-child(odd) {
+			.spotlights > section:nth-child {
 				border-right: solid 2px;
 			}
 
@@ -4162,6 +4162,9 @@
 					font-size: 1.9em;
 				}
 
+			#learn-more {
+				display: none;
+			}
 		}
 
 		@media screen and (max-width: 480px) {
